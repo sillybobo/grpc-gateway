@@ -1,11 +1,11 @@
 syntax = "proto3";
 option go_package = "examplepb";
-package grpc.gateway.examples.examplepb;
+package grpc.gateway.examples.internal.examplepb;
 
 import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";
-import "examples/proto/examplepb/a_bit_of_everything.proto";
-import "examples/proto/sub/message.proto";
+import "examples/internal/proto/examplepb/a_bit_of_everything.proto";
+import "examples/internal/proto/sub/message.proto";
 
 // This file is run through a genrule.
 
